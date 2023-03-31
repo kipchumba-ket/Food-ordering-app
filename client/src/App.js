@@ -14,7 +14,7 @@ function App() {
   const [user, setUser] = useState(null)
 
   useEffect(() => {
-    fetch("http://localhost:3000/menu")
+    fetch("http://localhost:3000/me")
     .then((res) => {
       if (res.ok) {
         res.json()
