@@ -1,6 +1,42 @@
-# Getting Started with Create React App
+## Author Name:
+Andrew Omondi Ochieng
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Project Name:
+Africana Restaurant 
+
+## Description of the program:
+The program is a food ordering application where one can order food from one of the major cities in kenya. The user has the ability to choose a specific restaurant on which to order a particular food item(s) from the menu.
+
+
+## Program instructions:
+Accessing the project requires a user to have the following: 
+* Any computing device with access to Internet. 
+* Reliable Internet connection.
+
+
+## Project Details
+
+This is the client-side of Afrikaan Restaurant, an online food ordering application. The api contains the logic with relationships between different tables such as location, restaurants, menu, among others. 
+
+<br>
+
+## Future Additions 
+* Add a reviews section where clients can leave their ratings & comments
+* Add payment intergrations where after checking out, clients can make direct payments
+* Add more locations(towns) to the platform in that people in other areas can also benefit from the application.
+
+
+
+## Technology Used
+* Reactjs Framework  
+* JavaScript for adding page interactions and fetching, & displaying data. 
+* Tailwindcss library for styling.
+
+
+## Program instructions:
+Accessing the project requires a user to have the following: Any computing device with access to Internet. Reliable Internet connection.
+
 
 ## Available Scripts
 
@@ -25,46 +61,36 @@ Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
 The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Your app is ready to be deployed! 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<br>
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## GitHub Pages:
+[Afrikaan Restaurant](https://github.com/Andrew-Ochieng/africana-restaurant-client)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<br />
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Contact
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    email: andrewomosh44@gmail.com
 
-## Learn More
+[LinkedIn](https://www.linkedin.com/in/andrew-ochieng-00b076180/) | 
+[Twitter](https://twitter.com/dev__drew) | 
+[Github](https://github.com/Andrew-Ochieng)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<br />
 
-### Code Splitting
+## Hosted Live Link
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+[Africana Restaurant](https://africana-restaurant-client.vercel.app/)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## License information
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+[MIT](LICENCE)
 
-### Advanced Configuration
+Copyright (c) 2022 Andrew Ochieng
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
