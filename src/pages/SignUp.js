@@ -60,7 +60,7 @@ const SignUp = ({setUser}) => {
                 navigate("/login"); // Redirect to the login page
               })
             }
-          });
+          })
       }
 
     const imgUrl = "https://img.freepik.com/free-vector/realistic-illustration-roasted-turkey-grilled-chicken-with-spices-vegetables_1441-1789.jpg?w=1380&t=st=1670450632~exp=1670451232~hmac=69975cba4f68f9f6609e991e64b066995e838c70710200fbd6f427399c53fdfe"
