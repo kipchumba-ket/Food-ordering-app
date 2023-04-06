@@ -1,8 +1,11 @@
 # phase-4-project
-## Author Name:
+## Authors Names:
 -Charles Ndungu
+
 -Edwin Thuita
+
 -Elly kipchumba
+
 -Victor Mbuthia
 
 
