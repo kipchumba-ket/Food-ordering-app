@@ -9,7 +9,7 @@ const SignUp = ({setUser}) => {
     const [password, setPassword] = useState("");
     const [passwordConfirmation, setPasswordConfirmation] = useState("");
 
-    function handleSubmit(e) {
+    /*function handleSubmit(e) {
         e.preventDefault();
         fetch("http://localhost:3000/signup", {
             method: "POST",
@@ -34,7 +34,34 @@ const SignUp = ({setUser}) => {
               });
             }
         });
-    }
+    }*/
+
+    function handleSubmit(e) {
+        e.preventDefault();
+        fetch("http://localhost:3000/signup", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            username,
+            email,
+            address,
+            password,
+            password_confirmation: passwordConfirmation,
+          }),
+        })
+          .then((res) => {
+            if (res.ok) {
+              res.json().then((user) => {
+                console.log(user);
+                setUser(user);
+                localStorage.setItem("me", JSON.stringify(user));
+                navigate("/login"); // Redirect to the login page
+              })
+            }
+          });
+      }
 
     const imgUrl = "https://img.freepik.com/free-vector/realistic-illustration-roasted-turkey-grilled-chicken-with-spices-vegetables_1441-1789.jpg?w=1380&t=st=1670450632~exp=1670451232~hmac=69975cba4f68f9f6609e991e64b066995e838c70710200fbd6f427399c53fdfe"
 
