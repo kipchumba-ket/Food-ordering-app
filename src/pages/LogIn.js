@@ -8,7 +8,7 @@ const LogIn = ({setUser}) => {
 
         function handleSubmit(e) {
             e.preventDefault();
-            fetch("http://localhost:3000/login", {
+            fetch("https://foodapi-bz69.onrender.com/login", {
                 method: "POST",
                 headers: {
                 "Content-Type": "application/json",
