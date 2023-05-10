@@ -12,7 +12,7 @@ const Navbar = ({user, setUser}) => {
 
     const navigate = useNavigate()
     function handleLogoutClick() {
-        fetch("http://localhost:3000/logout", { method: "DELETE" })
+        fetch("https://foodapi-bz69.onrender.com/logout", { method: "DELETE" })
         .then((res) => {
           if (res.ok) {
             setUser(null);
