@@ -3,7 +3,7 @@ import UseFetch from "./UseFetch";
 
 const Order = () => {
     const { id } = useParams()
-    const {data: menu, loading} = UseFetch("http://localhost:3000/menus/" + id)
+    const {data: menu, loading} = UseFetch("https://foodapi-bz69.onrender.com/menus/" + id)
 
     console.log(menu)
 
